@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script defer src="script.js">
+
+	</script>
+	<main id="game">
+		<h1 id="title-card">Tic Tac Toe</h1>
+
+		<div id="player-turn">
+			<p>Current Turn ➤</p>
+			<p id="player1" class="player-turn-on">Player 1 <br>X</br></p>
+      <p id="player2" class= "player-turn-off">Player 2 <br>O</br></p>
+
+    </div>
+
+		<div id="buttons-container">
+
+			<button type="button" class= "grid-button" id="0,0"></button>
+      <button type="button" class= "grid-button" id="0,1"></button>
+      <button type="button" class= "grid-button" id="0,2"></button>
+
+      <button type="button" class= "grid-button" id="1,0"></button>
+      <button type="button" class= "grid-button" id="1,1"></button>
+      <button type="button" class= "grid-button" id="1,2"></button>
+
+      <button type="button" class= "grid-button" id="2,0"></button>
+      <button type="button" class= "grid-button" id="2,1"></button>
+      <button type="button" class= "grid-button" id="2,2"></button>
+  </div>
+
+<div id="popup1" class="popup">
+<div class="popup-content">
+    <span class="close">&times;</span>
+    <p>Player 1 Wins!</p>
+  </div>
+</div>
+
+<div id="popup2" class="popup">
+<div class="popup-content">
+    <span class="close">&times;</span>
+    <p>Player 2 Wins!</p>
+  </div>
+</div>
+
+<div id="popup3" class="popup">
+<div class="popup-content">
+    <span class="close">&times;</span>
+    <p>It's a Tie!</p>
+  </div>
+</div>
+
+  <div class = "reset">
+    <button type="button" id="reset-button">Reset</button>
+  </div>
+    </main>
+  </body>
+</html>
